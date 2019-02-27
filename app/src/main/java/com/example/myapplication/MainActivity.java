@@ -11,8 +11,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    private int testMethod(){
+    private void testMethod(){
         int i=1+1;
-        return i;
+        int ii = 2+2;
+        int iii = i + ii;
+
     }
 }
